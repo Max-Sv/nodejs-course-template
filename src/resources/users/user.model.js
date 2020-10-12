@@ -17,6 +17,10 @@ class User {
     const { id, name, login } = user;
     return { id, name, login };
   }
+  static fromRequest(user) {
+    const { id, name, login } = JSON.parse(user);
+    return { id, name, login };
+  }
 }
 
 module.exports = User;
