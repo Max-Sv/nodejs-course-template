@@ -5,7 +5,7 @@ class Task {
     id = uuid(),
     title = 'task',
     order = 1,
-    description = 'empty disc',
+    description = 'empty task',
     userId = null,
     boardId = null,
     columnId = null
@@ -20,10 +20,6 @@ class Task {
   }
 
   static toResponse(task) {
-    const { id, title, order, description, userId, boardId, columnId } = task;
-    return { id, title, order, description, userId, boardId, columnId };
-  }
-  static fromRequest(task) {
     const { id, title, order, description, userId, boardId, columnId } = task;
     return { id, title, order, description, userId, boardId, columnId };
   }

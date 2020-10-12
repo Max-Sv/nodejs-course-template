@@ -7,12 +7,7 @@ class Board {
     this.title = title;
     this.columns = columns.map(colunm => new Column(colunm));
   }
-
   static toResponse(board) {
-    const { id, title, columns } = board;
-    return { id, title, columns };
-  }
-  static fromRequest(board) {
     const { id, title, columns } = board;
     return { id, title, columns };
   }
