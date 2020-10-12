@@ -1,5 +1,4 @@
 const DB = require('../../utils/inMemoryDB');
-// const NOT_FOUND_ERROR = require('../../errors/appError');
 const TABLE_NAME = 'Users';
 const User = require('./user.model');
 
