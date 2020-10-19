@@ -1,0 +1,31 @@
+2020-10-19 23:51:03 [[31merror[39m]: uncaughtException: Oops!
+Error: Oops!
+    at Object.<anonymous> (E:\rs-node\nodejs-course-template\src\app.js:45:7)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (E:\rs-node\nodejs-course-template\src\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+2020-10-19 23:51:04 [[31merror[39m]: Captured error: Oops!
+2020-10-19 23:51:40 [[31merror[39m]: Unhandled rejection detected: Oops!
+2020-10-19 23:53:02 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-20 00:01:33 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-20 00:01:53 [[31merror[39m]: {"status":400,"message":"Bad Request"}
+2020-10-20 00:02:09 [[31merror[39m]: uncaughtException: Oops!
+Error: Oops!
+    at Object.<anonymous> (E:\rs-node\nodejs-course-template\src\app.js:36:7)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (E:\rs-node\nodejs-course-template\src\server.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+2020-10-20 00:02:09 [[31merror[39m]: Captured error: Oops!
+2020-10-20 00:02:27 [[31merror[39m]: Unhandled rejection detected: Oops!

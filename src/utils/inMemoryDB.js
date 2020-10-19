@@ -1,6 +1,6 @@
-// const User = require('../resources/users/user.model');
-// const Board = require('../resources/boards/board.model');
-// const Task = require('../resources/tasks/task.model');
+const User = require('../resources/users/user.model');
+const Board = require('../resources/boards/board.model');
+const Task = require('../resources/tasks/task.model');
 
 const db = {
   Users: [],
@@ -22,29 +22,29 @@ const db = {
   },
   fixTasksStructure: () => {}
 };
-// function test() {
-//   for (let i = 0; i < 3; i++) {
-//     const user = new User();
-//     const board = new Board();
-//     db.Users.push(user);
-//     db.Boards.push(board);
-//     db.Tasks.push(
-//       new Task({ boardId: board.id, userId: user.id }),
-//       new Task({ boardId: board.id })
-//     );
-//   }
+function test() {
+  for (let i = 0; i < 3; i++) {
+    const user = new User();
+    const board = new Board();
+    db.Users.push(user);
+    db.Boards.push(board);
+    db.Tasks.push(
+      new Task({ boardId: board.id, userId: user.id }),
+      new Task({ boardId: board.id })
+    );
+  }
 
-// const board2 = new Board({
-//   title: 'test',
-//   columns: [
-//     { title: 'col1', order: 2 },
-//     { title: 'col2', order: 3 }
-//   ]
-// });
-// db.Boards.push(board2);
-// db.Tasks.push(new Task({ boardId: board2.id }));
-// }
-// test();
+  const board2 = new Board({
+    title: 'test',
+    columns: [
+      { title: 'col1', order: 2 },
+      { title: 'col2', order: 3 }
+    ]
+  });
+  db.Boards.push(board2);
+  db.Tasks.push(new Task({ boardId: board2.id }));
+}
+test();
 const getAllEntities = tableName => {
   return db[tableName].filter(entity => entity);
 };
