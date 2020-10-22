@@ -33,3 +33,405 @@ Error: Oops!
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
 2020-10-20 00:02:09 [[31merror[39m]: Captured error: Oops!
 2020-10-20 00:02:27 [[31merror[39m]: Unhandled rejection detected: Oops!
+2020-10-22 11:33:08 [[31merror[39m]: uncaughtException: Cannot find module 'http-status-codes'
+Error: Cannot find module 'http-status-codes'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/max/Work/rs/nodejs-course-template/src/common/error.js:1:50)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/users/e14d6f79-0241-4a86-9be9-af0647cb2dd9" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/users/e14d6f79-0241-4a86-9be9-af0647cb2dd9" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/f8a87826-1231-4663-8740-d41a50e96f04" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/e4460c8a-da66-481c-9816-38b8e9cfafa9" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/users/e5a173da-9cb3-4695-a169-e3de499da924" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/3f4dbd46-8edd-49bd-af86-8295b703bfc4" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/fc068070-94e3-4080-a401-2f85450c28d1" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "PUT" url = "/users/e23184ec-554b-440d-bfd7-562414ac7ce5" body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"e23184ec-554b-440d-bfd7-562414ac7ce5"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/users/e23184ec-554b-440d-bfd7-562414ac7ce5" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "PUT" url = "/boards/dc10ba58-cf56-44b8-8127-1232f8624956" body = {"id":"dc10ba58-cf56-44b8-8127-1232f8624956","title":"Autotest updated board","columns":[{"id":"38c8c3d0-d219-426c-b667-4f6f5a5547d1","title":"Backlog","order":1},{"id":"bdb84aab-be34-433f-b149-e6a120d0a279","title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/users/e23184ec-554b-440d-bfd7-562414ac7ce5" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "PUT" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/0607e748-273b-453e-af4e-113a5fd90e38" body = {"id":"0607e748-273b-453e-af4e-113a5fd90e38","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"ced7956b-199c-4702-afd1-7d52cd292b78","columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/dc10ba58-cf56-44b8-8127-1232f8624956" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/0607e748-273b-453e-af4e-113a5fd90e38" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/dc10ba58-cf56-44b8-8127-1232f8624956" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/users/446cc791-997d-4b21-ac8a-43b1fd9a995b" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/f8a87826-1231-4663-8740-d41a50e96f04" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/70366c62-cdb9-4825-aa06-61df0e21738d" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/f8a87826-1231-4663-8740-d41a50e96f04" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/70366c62-cdb9-4825-aa06-61df0e21738d" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78/tasks/f8a87826-1231-4663-8740-d41a50e96f04" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"a978b742-5a27-4740-ae77-21f8142fb509","boardId":"8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"a978b742-5a27-4740-ae77-21f8142fb509","boardId":"8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee"} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"af830c78-26a0-425a-9a70-d152386200fa","userId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"af830c78-26a0-425a-9a70-d152386200fa","userId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks" body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"af830c78-26a0-425a-9a70-d152386200fa","userId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks" body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"af830c78-26a0-425a-9a70-d152386200fa","userId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "POST" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks" body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"af830c78-26a0-425a-9a70-d152386200fa","userId":null,"columnId":null} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/ced7956b-199c-4702-afd1-7d52cd292b78" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/users/a978b742-5a27-4740-ae77-21f8142fb509" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks/3dd21d0a-f6a6-4f33-bf42-6d3b1dce222b" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks/066885af-a6b9-4ddd-8cb9-34f948909d61" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks/3dd21d0a-f6a6-4f33-bf42-6d3b1dce222b" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee/tasks/066885af-a6b9-4ddd-8cb9-34f948909d61" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/8886bf3d-b0ea-45a0-a81d-e29fe9ef45ee" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/24f7ec40-725d-4efa-ba9d-b629cd6def50" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/3df634e6-6e0a-4c14-867b-42386ca8bf37" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/d36d92cb-ce68-4f40-b764-742273811ef8" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/5ea5f0d1-5804-4b7f-8246-42518067b132" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/3323f425-720d-4c4a-8b6e-d030badf2b95" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa" body = {} query = {}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/24f7ec40-725d-4efa-ba9d-b629cd6def50" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/3df634e6-6e0a-4c14-867b-42386ca8bf37" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/d36d92cb-ce68-4f40-b764-742273811ef8" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/5ea5f0d1-5804-4b7f-8246-42518067b132" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "GET" url = "/boards/af830c78-26a0-425a-9a70-d152386200fa/tasks/3323f425-720d-4c4a-8b6e-d030badf2b95" body = {} query = {}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[32minfo[39m]: method = "DELETE" url = "/boards/d11dd7bd-2dd9-4a9b-9d63-5e03e6af0a86" body = {} query = {}
+2020-10-22 11:57:35 [[32minfo[39m]: method = "GET" url = "/" body = {} query = {}
+2020-10-22 11:57:36 [[32minfo[39m]: method = "GET" url = "/favicon.ico" body = {} query = {}
+2020-10-22 11:57:48 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 11:57:58 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 11:57:58 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:58:58 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 11:58:58 [[31merror[39m]: Unhandled rejection detected: logger is not defined
+2020-10-22 12:00:13 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 12:00:13 [[31merror[39m]: TypeError: NotFoundError is not a constructor
+    at Object.remove (/home/max/Work/rs/nodejs-course-template/src/resources/users/user.memory.repository.js:19:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-10-22 12:03:33 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 12:03:33 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:08:35 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 12:08:35 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 12:10:47 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 12:10:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/1bb62540-3089-4849-aa8b-15958e28ac89" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/9fa563b1-bc82-41b2-a7ce-47b68d01886f" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "PUT" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/a81bb373-49a7-4f27-ae40-7c18af325dd5" body = {"id":"a81bb373-49a7-4f27-ae40-7c18af325dd5","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"f73133fa-7f7c-4636-b876-85be12371122","columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/a81bb373-49a7-4f27-ae40-7c18af325dd5" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/1bb62540-3089-4849-aa8b-15958e28ac89" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/1bb62540-3089-4849-aa8b-15958e28ac89" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122/tasks/1bb62540-3089-4849-aa8b-15958e28ac89" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/f73133fa-7f7c-4636-b876-85be12371122" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/0434ac97-b353-4be3-8331-fa8e39259410" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/7252cf0a-4299-4e4e-802a-bdd0d9084452" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "PUT" url = "/boards/34568ad2-002f-47fe-b410-fc30a981e981" body = {"id":"34568ad2-002f-47fe-b410-fc30a981e981","title":"Autotest updated board","columns":[{"id":"b2495a56-e81b-43df-ad98-1fa087dd47f1","title":"Backlog","order":1},{"id":"ed6e2d77-a941-4469-b0f5-dbf707a24036","title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/34568ad2-002f-47fe-b410-fc30a981e981" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/34568ad2-002f-47fe-b410-fc30a981e981" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/users/cf3738c2-5a60-4c93-8c7d-3bf52d5cb8f2" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/ae7b583c-8500-44dd-a451-84172655337b" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/users/cf3738c2-5a60-4c93-8c7d-3bf52d5cb8f2" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae7b583c-8500-44dd-a451-84172655337b" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/users/efcc7d6b-47fa-4fa1-8fef-80f8801cf7c7" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "PUT" url = "/users/8479ab99-ef3b-4bcb-8a6b-f1fe7e07836a" body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"8479ab99-ef3b-4bcb-8a6b-f1fe7e07836a"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"ae063e4a-55a9-49cb-a2ac-5c3560931098","userId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"ae063e4a-55a9-49cb-a2ac-5c3560931098","userId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks" body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"ae063e4a-55a9-49cb-a2ac-5c3560931098","userId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks" body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"ae063e4a-55a9-49cb-a2ac-5c3560931098","userId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks" body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"ae063e4a-55a9-49cb-a2ac-5c3560931098","userId":null,"columnId":null} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/users/8479ab99-ef3b-4bcb-8a6b-f1fe7e07836a" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/583670b1-bee6-467a-a1e0-2171784a8583" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/users/8479ab99-ef3b-4bcb-8a6b-f1fe7e07836a" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/40cf280c-bf07-4552-a036-f8ebac9ad7c1" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/d5321abf-a01e-4721-9a43-20eed7c74563" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/2a516bbd-70a5-42b0-aaa0-1eb205f30ba8" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/5fb0ad0c-06a3-48c1-bbc1-dd75b678591b" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/users/99bea4df-4a82-4b5f-b9d4-d7b3262d687d" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/583670b1-bee6-467a-a1e0-2171784a8583" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/40cf280c-bf07-4552-a036-f8ebac9ad7c1" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/d5321abf-a01e-4721-9a43-20eed7c74563" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/2a516bbd-70a5-42b0-aaa0-1eb205f30ba8" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/ae063e4a-55a9-49cb-a2ac-5c3560931098/tasks/5fb0ad0c-06a3-48c1-bbc1-dd75b678591b" body = {} query = {}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/a8e0dae4-0025-4533-bb83-c67d373e1729" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"15f0b26f-afe3-43cb-bfa6-7d9ab26663ea","boardId":"b3f3bcfc-e6db-4d57-87af-5ffb7042087c"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "POST" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"15f0b26f-afe3-43cb-bfa6-7d9ab26663ea","boardId":"b3f3bcfc-e6db-4d57-87af-5ffb7042087c"} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/users/15f0b26f-afe3-43cb-bfa6-7d9ab26663ea" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks/d9ba2112-dfb7-4eab-b4a5-b87aa524508e" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "GET" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks/8cb5d104-d1c7-46cc-afdc-36fa9d545f4f" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks/d9ba2112-dfb7-4eab-b4a5-b87aa524508e" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c/tasks/8cb5d104-d1c7-46cc-afdc-36fa9d545f4f" body = {} query = {}
+2020-10-22 12:15:51 [[32minfo[39m]: method = "DELETE" url = "/boards/b3f3bcfc-e6db-4d57-87af-5ffb7042087c" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/users/e37852c1-760b-43b1-af55-f9454036427d" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/users/e37852c1-760b-43b1-af55-f9454036427d" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/users/e6fe055d-1984-427c-ab4e-50d16ef21660" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "PUT" url = "/users/1d34c253-02df-4fd8-9370-d8799a7d44ea" body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"1d34c253-02df-4fd8-9370-d8799a7d44ea"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/users/1d34c253-02df-4fd8-9370-d8799a7d44ea" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/users/1d34c253-02df-4fd8-9370-d8799a7d44ea" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/users/71b51df9-9e1f-4a7b-801f-761dffab8ed6" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"504012bb-52a9-494b-b0ca-c7a423742168","boardId":"58c28adc-ad83-4634-b33c-14ce2c4e5ef4"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"504012bb-52a9-494b-b0ca-c7a423742168","boardId":"58c28adc-ad83-4634-b33c-14ce2c4e5ef4"} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/users/504012bb-52a9-494b-b0ca-c7a423742168" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks/480453d9-25cb-4d0c-aaca-50c8eab47f2d" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/6faa4e02-6364-498e-9ae3-9dc064503ffb" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks/12fdbf79-a487-4d8f-809d-7d28d1df3d9e" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks/480453d9-25cb-4d0c-aaca-50c8eab47f2d" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4/tasks/12fdbf79-a487-4d8f-809d-7d28d1df3d9e" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/34c7fe5a-08b1-4eb2-91fe-f5e6c0a89445" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/58c28adc-ad83-4634-b33c-14ce2c4e5ef4" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "PUT" url = "/boards/c71f630b-6b88-4989-affd-2d326577aa88" body = {"id":"c71f630b-6b88-4989-affd-2d326577aa88","title":"Autotest updated board","columns":[{"id":"ef51e457-4bc7-4d50-8524-f1fc0f34d54c","title":"Backlog","order":1},{"id":"27cbd76d-c8c5-46d4-b63c-1f387d4f856b","title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/c71f630b-6b88-4989-affd-2d326577aa88" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/c71f630b-6b88-4989-affd-2d326577aa88" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/2e31a45b-239f-4af6-9695-541fc9017c20" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/2e31a45b-239f-4af6-9695-541fc9017c20" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d2a022a7-1bfd-4df1-a1e8-282fda796ae1","userId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d2a022a7-1bfd-4df1-a1e8-282fda796ae1","userId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks" body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d2a022a7-1bfd-4df1-a1e8-282fda796ae1","userId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks" body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d2a022a7-1bfd-4df1-a1e8-282fda796ae1","userId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks" body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d2a022a7-1bfd-4df1-a1e8-282fda796ae1","userId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/680f8261-73e7-4c5b-a457-a00c7c832569" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/a5717541-86c0-46f0-82f4-65f206c39770" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/e9dcc413-144d-4530-bd55-30ed3a01be6f" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/6f58a714-a238-4730-ab59-18dad0cf32ab" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/aebc4be2-3913-4761-b3dd-a163cd096e88" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/680f8261-73e7-4c5b-a457-a00c7c832569" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/a5717541-86c0-46f0-82f4-65f206c39770" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/e9dcc413-144d-4530-bd55-30ed3a01be6f" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/6f58a714-a238-4730-ab59-18dad0cf32ab" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/d2a022a7-1bfd-4df1-a1e8-282fda796ae1/tasks/aebc4be2-3913-4761-b3dd-a163cd096e88" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/c7434515-f40e-45c2-96c6-190323e89dae" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/efcc360a-cb5f-4631-ada9-042173fe1461" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/632188e1-57c2-469d-a548-b3691aedd134" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "POST" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "PUT" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/25d682b6-cf69-43ff-b25d-d0f0d3f46445" body = {"id":"25d682b6-cf69-43ff-b25d-d0f0d3f46445","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"b85e8f83-4742-40d3-b92f-5d05b100f424","columnId":null} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/25d682b6-cf69-43ff-b25d-d0f0d3f46445" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/efcc360a-cb5f-4631-ada9-042173fe1461" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/efcc360a-cb5f-4631-ada9-042173fe1461" body = {} query = {}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "GET" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424/tasks/efcc360a-cb5f-4631-ada9-042173fe1461" body = {} query = {}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[32minfo[39m]: method = "DELETE" url = "/boards/b85e8f83-4742-40d3-b92f-5d05b100f424" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/8ec80030-9010-4abf-bc5c-a4ef9e5f5f83" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/94e53375-ce2b-43f2-95be-1e37de4320d3" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "PUT" url = "/boards/a2acb928-8148-40ab-a308-24cfaf80c589" body = {"id":"a2acb928-8148-40ab-a308-24cfaf80c589","title":"Autotest updated board","columns":[{"id":"b282c86d-93fe-404d-bbc4-8b4ab2fe263e","title":"Backlog","order":1},{"id":"7b9fb07e-06ff-49a3-bbb9-82b357f26f9f","title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/a2acb928-8148-40ab-a308-24cfaf80c589" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/a2acb928-8148-40ab-a308-24cfaf80c589" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/1b8ac021-4ae3-470c-a3fa-b93a75003fe7" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/1b8ac021-4ae3-470c-a3fa-b93a75003fe7" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"55e984a9-01f6-4e35-8702-1602230e963c","userId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"55e984a9-01f6-4e35-8702-1602230e963c","userId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks" body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"55e984a9-01f6-4e35-8702-1602230e963c","userId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks" body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"55e984a9-01f6-4e35-8702-1602230e963c","userId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks" body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"55e984a9-01f6-4e35-8702-1602230e963c","userId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/b74b019d-d5cf-422d-aa82-461142848dad" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/2b544b68-c04f-4a60-b215-272e0490013b" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/6014b7ce-d249-4c23-80ca-0cf0d5473186" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/a2d26e20-b0be-4dc6-a9eb-fe2f5f6065ce" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/53d913e0-339b-46b8-a017-926a1bc68253" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/b74b019d-d5cf-422d-aa82-461142848dad" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/2b544b68-c04f-4a60-b215-272e0490013b" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/6014b7ce-d249-4c23-80ca-0cf0d5473186" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/a2d26e20-b0be-4dc6-a9eb-fe2f5f6065ce" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/55e984a9-01f6-4e35-8702-1602230e963c/tasks/53d913e0-339b-46b8-a017-926a1bc68253" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/568f845b-ca8b-4aa8-8ccc-649f64b08c9f" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/users/fe6616a4-87dd-4f93-906c-9c875e7388fb" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/users/fe6616a4-87dd-4f93-906c-9c875e7388fb" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/users/c834de47-d5d9-400a-ae08-f7d204d0d7d5" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "PUT" url = "/users/4c947f39-1c7e-4b1f-b76d-4aa97d55e28f" body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"4c947f39-1c7e-4b1f-b76d-4aa97d55e28f"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/users/4c947f39-1c7e-4b1f-b76d-4aa97d55e28f" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/users/4c947f39-1c7e-4b1f-b76d-4aa97d55e28f" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/users/312e066e-8af0-4e8a-9f9e-10955c1d4e2f" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/f67c2ecd-d785-41d3-88e9-6090ed0ab252" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"c23e39d4-66e9-4d4c-a99a-a4e54d8cb73f","boardId":"2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"c23e39d4-66e9-4d4c-a99a-a4e54d8cb73f","boardId":"2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c"} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/users/c23e39d4-66e9-4d4c-a99a-a4e54d8cb73f" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks/fc040ca5-d6f7-4b48-892b-176d095df54e" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks/130cde45-0618-4960-8e70-4fe2f98a1a9d" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks/fc040ca5-d6f7-4b48-892b-176d095df54e" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c/tasks/130cde45-0618-4960-8e70-4fe2f98a1a9d" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/db30653f-7758-4d09-a3ae-53aa7a1c1ed7" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "POST" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/2aa3dcaf-57c9-4fb5-afbf-e0c38fc5e23c" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "PUT" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/962e7cf1-f263-47f1-bbb5-44581d978570" body = {"id":"962e7cf1-f263-47f1-bbb5-44581d978570","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"9a89f89a-ce4b-496f-9cbc-7b85483eb679","columnId":null} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/962e7cf1-f263-47f1-bbb5-44581d978570" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/f67c2ecd-d785-41d3-88e9-6090ed0ab252" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/f67c2ecd-d785-41d3-88e9-6090ed0ab252" body = {} query = {}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "GET" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679/tasks/f67c2ecd-d785-41d3-88e9-6090ed0ab252" body = {} query = {}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[32minfo[39m]: method = "DELETE" url = "/boards/9a89f89a-ce4b-496f-9cbc-7b85483eb679" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/822df034-49f1-4ee5-a62b-4e2d725388af" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/c82f4ed0-1655-4056-b939-817cf1fa6750" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks" body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "PUT" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/12fa5343-6d6a-4e03-a6a5-c621e80a573a" body = {"id":"12fa5343-6d6a-4e03-a6a5-c621e80a573a","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"4ea110be-2cef-4298-bf4b-db65748b7b20","columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/12fa5343-6d6a-4e03-a6a5-c621e80a573a" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/822df034-49f1-4ee5-a62b-4e2d725388af" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/822df034-49f1-4ee5-a62b-4e2d725388af" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20/tasks/822df034-49f1-4ee5-a62b-4e2d725388af" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/4ea110be-2cef-4298-bf4b-db65748b7b20" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/8ec80030-9010-4abf-bc5c-a4ef9e5f5f83" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/37d048fd-f586-4e4b-b533-f8927886272c" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "PUT" url = "/boards/71213f2a-14dc-4880-ae39-05b726cd94a7" body = {"id":"71213f2a-14dc-4880-ae39-05b726cd94a7","title":"Autotest updated board","columns":[{"id":"15344dfd-7f42-4961-97c5-5ddd85c6ab8b","title":"Backlog","order":1},{"id":"a8b1012d-e278-453e-9183-3f9f363c32c7","title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/71213f2a-14dc-4880-ae39-05b726cd94a7" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/71213f2a-14dc-4880-ae39-05b726cd94a7" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/28423c29-0b1d-4857-a444-6433ddb77a06" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/28423c29-0b1d-4857-a444-6433ddb77a06" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/users/6ab981c9-4433-415a-ac60-eb385d539e4d" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"d396a144-edb0-4f6a-a612-f70017585a05","userId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"d396a144-edb0-4f6a-a612-f70017585a05","userId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks" body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"d396a144-edb0-4f6a-a612-f70017585a05","userId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks" body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"d396a144-edb0-4f6a-a612-f70017585a05","userId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks" body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"d396a144-edb0-4f6a-a612-f70017585a05","userId":null,"columnId":null} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/users/6ab981c9-4433-415a-ac60-eb385d539e4d" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/165c9569-51dd-4fcd-ab50-d991434c1578" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/fbd70ff7-793d-43df-aac5-b9ee99b20c7b" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/4b20a5ab-0807-44b4-a7c6-f907a4917a7f" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/146866fe-5647-4da2-8b21-6189717d00ff" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/ae2c1cd5-6094-4aec-a8ce-1fc053162fde" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/users/abf6fe00-38c0-4b01-890e-7ab5d43eb273" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/165c9569-51dd-4fcd-ab50-d991434c1578" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/fbd70ff7-793d-43df-aac5-b9ee99b20c7b" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/4b20a5ab-0807-44b4-a7c6-f907a4917a7f" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/146866fe-5647-4da2-8b21-6189717d00ff" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/d396a144-edb0-4f6a-a612-f70017585a05/tasks/ae2c1cd5-6094-4aec-a8ce-1fc053162fde" body = {} query = {}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "PUT" url = "/users/29f9a221-fdd9-4ee7-ade4-91131e19e493" body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"29f9a221-fdd9-4ee7-ade4-91131e19e493"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/users/29f9a221-fdd9-4ee7-ade4-91131e19e493" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/c2f91778-6702-478c-97a4-acee858bc71f" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/users/29f9a221-fdd9-4ee7-ade4-91131e19e493" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/users/3a842a89-f2c2-4115-863f-63b7eff61e20" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/users" body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards" body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks" body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"d13b20c4-80d9-4e1a-bae8-095a02df048a","boardId":"ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "POST" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks" body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"d13b20c4-80d9-4e1a-bae8-095a02df048a","boardId":"ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e"} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/users/d13b20c4-80d9-4e1a-bae8-095a02df048a" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks/fb5be038-c262-4c6d-a4d2-f5e54f4f6e82" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "GET" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks/3dda3aaa-8add-4c66-bf24-5d5599d63277" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks/fb5be038-c262-4c6d-a4d2-f5e54f4f6e82" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e/tasks/3dda3aaa-8add-4c66-bf24-5d5599d63277" body = {} query = {}
+2020-10-22 12:31:28 [[32minfo[39m]: method = "DELETE" url = "/boards/ddd0cbd6-c0f4-4467-9dfe-4994b7b3025e" body = {} query = {}
+2020-10-22 12:33:47 [[32minfo[39m]: method = "GET" url = "/users" body = {} query = {}
+2020-10-22 12:33:58 [[32minfo[39m]: method = "DELETE" url = "/users/sdfaf" body = {} query = {}
+2020-10-22 12:33:58 [[31merror[39m]: {"status":404,"message":"Not Found"}

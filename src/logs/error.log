@@ -29,3 +29,59 @@ Error: Oops!
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
 2020-10-20 00:02:09 [[31merror[39m]: Captured error: Oops!
 2020-10-20 00:02:27 [[31merror[39m]: Unhandled rejection detected: Oops!
+2020-10-22 11:33:08 [[31merror[39m]: uncaughtException: Cannot find module 'http-status-codes'
+Error: Cannot find module 'http-status-codes'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/max/Work/rs/nodejs-course-template/src/common/error.js:1:50)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:33:47 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:57:58 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 11:58:58 [[31merror[39m]: Unhandled rejection detected: logger is not defined
+2020-10-22 12:00:13 [[31merror[39m]: TypeError: NotFoundError is not a constructor
+    at Object.remove (/home/max/Work/rs/nodejs-course-template/src/resources/users/user.memory.repository.js:19:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-10-22 12:03:33 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:08:35 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 12:10:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:15:51 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:16:26 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:23:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:31:28 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-10-22 12:33:58 [[31merror[39m]: {"status":404,"message":"Not Found"}

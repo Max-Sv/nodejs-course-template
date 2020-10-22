@@ -1,0 +1,15 @@
+{"message":"        {\"url\":\"/favicon.ico\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/boards\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/boards\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/boards\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users/223ff6c5-c2b6-422a-8864-e281f41896fa\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users/223ff6c5-c2b6-422a-8864-e281f41896fa\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/boards\",\"params\":{},\"body\":{}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}
+{"message":"        {\"url\":\"/users\",\"params\":{},\"body\":{\"name\":\"test\",\"login\":\"11\",\"password\":\"1111\"}}","level":"\u001b[32m\u001b[32m\u001b[32m\u001b[32minfo\u001b[32m\u001b[32m\u001b[32m\u001b[39m"}

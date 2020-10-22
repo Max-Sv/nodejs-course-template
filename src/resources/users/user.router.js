@@ -2,9 +2,13 @@ const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
 
-router.route('/').get(async (req, res) => {
-  const users = await usersService.getAll();
-  res.json(users.map(User.toResponse));
+router.route('/').get(async (req, res, next) => {
+  try {
+    const users = await usersService.getAll();
+    res.json(users.map(User.toResponse));
+  } catch (e) {
+    return next(e);
+  }
 });
 router.route('/:id').get(async (req, res, next) => {
   try {
