@@ -6,15 +6,6 @@ class Column {
     this.title = title;
     this.order = order;
   }
-
-  // static toResponse(board) {
-  //   const { id, title, columns } = board;
-  //   return { id, title, columns };
-  // }
-  // static fromRequest(board) {
-  //   const { id, title, columns } = board;
-  //   return { id, title, columns };
-  // }
 }
 
 module.exports = Column;

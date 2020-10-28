@@ -9,7 +9,7 @@ const { infoLogger, errorLogger } = require('./common/logging');
 const { errorHandler } = require('./common/error');
 const cors = require('cors');
 const helmet = require('helmet');
-require('express-async-errors');
+// require('express-async-errors');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 

@@ -44,4 +44,4 @@ const errorLogger = error => {
   logger.error(error);
 };
 
-module.exports = { infoLogger, errorLogger };
+module.exports = { infoLogger, errorLogger, logger };

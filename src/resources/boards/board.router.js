@@ -1,11 +1,12 @@
 const router = require('express').Router();
-const Board = require('./board.model');
+const { OK, NO_CONTENT } = require('http-status-codes');
+const { toResponse } = require('./board.model');
 const boardsService = require('./board.service');
 
 router.route('/').get(async (req, res, next) => {
   try {
     const boards = await boardsService.getAll();
-    res.json(boards.map(Board.toResponse));
+    res.json(boards.map(toResponse));
   } catch (e) {
     return next(e);
   }
@@ -13,15 +14,15 @@ router.route('/').get(async (req, res, next) => {
 router.route('/:id').get(async (req, res, next) => {
   try {
     const board = await boardsService.get(req.params.id);
-    res.status(200).send(Board.toResponse(board));
+    res.status(OK).send(toResponse(board));
   } catch (e) {
     return next(e);
   }
 });
 router.route('/:id').delete(async (req, res, next) => {
   try {
-    await boardsService.remove(req.params.id);
-    res.status(200).send('ok');
+    const board = await boardsService.remove(req.params.id);
+    res.status(NO_CONTENT).send(toResponse(board));
   } catch (e) {
     return next(e);
   }
@@ -29,7 +30,7 @@ router.route('/:id').delete(async (req, res, next) => {
 router.route('/').post(async (req, res, next) => {
   try {
     const board = await boardsService.save(req.body);
-    res.status(200).send(Board.toResponse(board));
+    res.status(OK).send(toResponse(board));
   } catch (e) {
     return next(e);
   }
@@ -37,7 +38,7 @@ router.route('/').post(async (req, res, next) => {
 router.route('/:id').put(async (req, res, next) => {
   try {
     const board = await boardsService.update(req.params.id, req.body);
-    res.status(200).send(Board.toResponse(board));
+    res.status(OK).send(toResponse(board));
   } catch (e) {
     return next(e);
   }
