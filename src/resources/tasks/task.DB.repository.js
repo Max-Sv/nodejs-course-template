@@ -1,18 +1,22 @@
-const NotFoundError = require('../../common/notFoundError');
+const CustomError = require('../../common/customError');
 const { Task } = require('./task.model');
-
+const ENTITY_NAME = 'task';
 const getAll = async boardId => Task.find({ boardId });
 const get = async id => {
   const task = await Task.findById(id);
   if (!task) {
-    throw new NotFoundError();
+    throw new CustomError({
+      message: `${ENTITY_NAME}: id-${id} not found`
+    });
   }
   return task;
 };
 const remove = async id => {
   const task = await Task.findByIdAndDelete(id);
   if (!task) {
-    throw new NotFoundError();
+    throw new CustomError({
+      message: `${ENTITY_NAME}: id-${id} not found`
+    });
   }
   return task;
 };
@@ -25,7 +29,9 @@ const update = async (boardId, id, task) => {
   task.boardId = boardId;
   const updatedTask = await Task.findByIdAndUpdate(id, task);
   if (!updatedTask) {
-    throw new NotFoundError();
+    throw new CustomError({
+      message: `${ENTITY_NAME}: id-${id} not found`
+    });
   }
   return updatedTask;
 };

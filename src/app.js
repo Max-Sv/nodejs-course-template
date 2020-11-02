@@ -5,8 +5,10 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const loginRouter = require('./resources/login/login.router');
 const { infoLogger, errorLogger } = require('./common/logging');
 const { errorHandler } = require('./common/error');
+const auth = require('./utils/auth');
 const cors = require('cors');
 const helmet = require('helmet');
 // require('express-async-errors');
@@ -41,6 +43,8 @@ process.on('unhandledRejection', reason => {
 
 // unhandledRejection
 // Promise.reject(Error('Oops!'));
+app.use('/login', loginRouter);
+app.use(auth);
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
