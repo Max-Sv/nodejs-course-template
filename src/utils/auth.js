@@ -6,16 +6,10 @@ const jwt = require('jsonwebtoken');
 const auth = (req, res, next) => {
   try {
     const [type, token] = req.headers.authorization.split(' ');
-    if (type !== 'Bearer') {
-      throw new CustomError({
-        status: UNAUTHORIZED,
-        message: 'Type is not Bearer'
-      });
-    }
+    if (type !== 'Bearer') throw Error;
     const decoded = jwt.verify(token, JWT_SECRET_KEY);
     req.user = decoded;
-    next();
-    return;
+    return next();
   } catch (err) {
     throw new CustomError({
       status: UNAUTHORIZED,

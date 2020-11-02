@@ -11700,3 +11700,1791 @@ Error: Cannot find module '../resources/users/user.service'
     at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
     at process._tickCallback (internal/process/next_tick.js:68:7)
 2020-11-02 17:17:34 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016535feaffa9b7a06561 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: board: id-5fa016535feaffa9b7a0656f not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016545feaffa9b7a06576 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016545feaffa9b7a06575 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016545feaffa9b7a06577 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016545feaffa9b7a06578 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: task: id-5fa016545feaffa9b7a06579 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:23:16 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:23:16 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:23:16 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:09 [[31merror[39m]: Error: task: id-5fa01dcc7df740b6c0ffb813 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:09 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: board: id-5fa01dcd7df740b6c0ffb820 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: task: id-5fa01dce7df740b6c0ffb827 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: task: id-5fa01dce7df740b6c0ffb828 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: task: id-5fa01dce7df740b6c0ffb829 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: task: id-5fa01dce7df740b6c0ffb82a not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: Error: task: id-5fa01dce7df740b6c0ffb82b not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:10 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:10 [[31merror[39m]: TypeError: Cannot read property 'split' of undefined
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:8:53)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:10 [[31merror[39m]: {"status":500,"message":"Internal Server Error"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:37 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:37 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:38 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:38 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:38 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:20:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:55:38 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:55:39 [[31merror[39m]: Error: task: id-5fa01deaf42c72b734650abb not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:39 [[31merror[39m]: Error: board: id-5fa01debf42c72b734650ac8 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:40 [[31merror[39m]: Error: task: id-5fa01debf42c72b734650ad2 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:40 [[31merror[39m]: Error: task: id-5fa01debf42c72b734650acf not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:40 [[31merror[39m]: Error: task: id-5fa01debf42c72b734650ad3 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:40 [[31merror[39m]: Error: task: id-5fa01debf42c72b734650ad0 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:55:40 [[31merror[39m]: Error: task: id-5fa01debf42c72b734650ad1 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:55:40 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e2f3800aeb7e3f39a3f not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: board: id-5fa01e2f3800aeb7e3f39a4c not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e303800aeb7e3f39a55 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e303800aeb7e3f39a54 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e303800aeb7e3f39a53 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e303800aeb7e3f39a56 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: task: id-5fa01e303800aeb7e3f39a57 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:56:48 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:56:48 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:19:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:56:48 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9e29f5ecb922bd512f not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: board: id-5fa01e9f29f5ecb922bd513c not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9f29f5ecb922bd5143 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9f29f5ecb922bd5145 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9f29f5ecb922bd5144 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9f29f5ecb922bd5146 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: task: id-5fa01e9f29f5ecb922bd5147 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:58:39 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:39 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:39 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:40 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:40 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:40 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:40 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:40 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:40 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:40 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:40 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:58:40 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:16:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:58:40 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:46 [[31merror[39m]: Error: task: id-5fa01ee1842b89b9d6825a6e not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:46 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: board: id-5fa01ee2842b89b9d6825a7b not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/boards/board.DB.repository.js:10:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: task: id-5fa01ee3842b89b9d6825a86 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: task: id-5fa01ee3842b89b9d6825a83 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: task: id-5fa01ee3842b89b9d6825a84 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: task: id-5fa01ee3842b89b9d6825a87 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: task: id-5fa01ee3842b89b9d6825a85 not found
+    at Object.get (/home/max/Work/rs/nodejs-course-template/src/resources/tasks/task.DB.repository.js:8:11)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-11-02 17:59:47 [[31merror[39m]: {"status":404,"message":"Not Found"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
+2020-11-02 17:59:47 [[31merror[39m]: Error: Authorization error
+    at auth (/home/max/Work/rs/nodejs-course-template/src/utils/auth.js:14:11)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:31:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:275:10)
+    at app.use (/home/max/Work/rs/nodejs-course-template/src/app.js:24:3)
+    at Layer.handle [as handle_request] (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:317:13)
+    at /home/max/Work/rs/nodejs-course-template/node_modules/express/lib/router/index.js:284:7
+2020-11-02 17:59:47 [[31merror[39m]: {"status":401,"message":"Unauthorized"}
